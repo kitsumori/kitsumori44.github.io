@@ -1,0 +1,61 @@
+/* Setting a global font for the whole html page */
+
+html {
+  font-size: 10px;
+  font-family: "lora", serif;   
+}
+
+/* Font sizes for text-containing elements inside the html body */
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+/* Hover stuff */
+a {
+    color: teal;
+}
+a:hover {
+    color: crimson;
+}
+/*background color */
+
+html{
+    background-color: #292929;
+}
+
+/*body shit */
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #474747;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px coral;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.internet{
+    color: red;
+}
