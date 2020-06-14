@@ -7,16 +7,14 @@ html {
 
 /* Font sizes for text-containing elements inside the html body */
 
-h1, h2{
+h1, h2, h3{
     font-size: 30px;
     text-align: center;
     color: whitesmoke;
     margin: 0;
     padding: 20px 0;
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    text-shadow: 3px 4px 2px #ff0068;
+
 
 }
 
@@ -62,7 +60,7 @@ img{
     padding-right: 0%;
 }
 
-.internet{
+/* .internet{
     color: red;
 }
 
@@ -74,8 +72,19 @@ img{
 */
 
 div#firm p{
-    color: royalblue;
+    color: white;
     text-align: right;
-    text-shadow: rgb(16, 109, 36);
-    font-size: 14px;
+    text-shadow: 1px 1px 1px #a600ff;
+    font-size: 14px
+}
+
+/*set goal things hehe */
+div.goal img{
+    margin-left: 600px;
+    margin-top: -46px;
+
+}
+
+div#audio {
+    margin-bottom: 14px;
 }
